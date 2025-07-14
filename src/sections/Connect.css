@@ -1,0 +1,35 @@
+.connect-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 80px 20px;
+  color: #ffffff;
+}
+
+.connect-inline {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.connect-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #64ffda;
+  margin: 0;
+}
+
+.social-icons-inline {
+  display: flex;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+
+.social-icons-inline a {
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons-inline a:hover {
+  color: #64ffda;
+  transform: scale(1.15);
+}

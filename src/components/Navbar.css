@@ -1,0 +1,34 @@
+.custom-navbar {
+  background-color: #000000; /* black navbar */
+  padding: 0.75rem 0;
+  font-family: system-ui, sans-serif;
+  border-bottom: 1px solid #222;
+}
+
+.custom-navbar .brand-name {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.custom-navbar .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  font-size: 1rem;
+  margin-left: 1.25rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: #0d6efd !important; /* Blue on hover/active */
+  font-weight: 500;
+}
