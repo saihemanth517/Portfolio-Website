@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="mt-4 hero-buttons">
               <Button
                 variant="outline-light"
-                href="https://drive.google.com/file/d/1-sSRO2_eEsDDbRkRn2-RUUogcHxoqDY2/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1XnWzzJTNE4GKA5Lnnsiy9e-6j6A7PscT/view?usp=drivesdk"
                 className="me-3"
               >
                 My Resume

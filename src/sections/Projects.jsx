@@ -64,7 +64,7 @@ const Projects = () => {
             <Col md={6}>
               <h4 className="project-title">Travel Planner Web App</h4>
               <p className="project-description">
-                A full-stack Travel Planner that integrates real‑time flight data (Amadeus API) and hotel/venue recommendations (Foursquare API). Backend built with Spring Boot, secured via JWT, and connects to MySQL; frontend built with React + Vite and styled with Bootstrap.
+                A full-stack Travel Planner that integrates real-time flight data (Amadeus API) and hotel/venue recommendations (Foursquare API). Backend built with Spring Boot, secured via JWT, and connects to MySQL; frontend built with React + Vite and styled with Bootstrap.
               </p>
               <div className="project-stack mb-3">
                 <strong>Stack:</strong> React, Vite, Spring Boot, MySQL, Amadeus API, Foursquare API, Bootstrap, JWT
@@ -114,6 +114,39 @@ const Projects = () => {
             </Col>
           </Row>
         </div>
+
+        {/* Project 4: Food Delivery Application */}
+        <div className="project-box mb-5">
+          <Row className="align-items-center flex-md-row-reverse">
+            <Col md={6} className="mb-4 mb-md-0">
+              <img
+                src="https://i.ibb.co/S4ZPPc45/dashboard-food.jpg"
+                alt="Food Delivery Application UI"
+                className="project-img img-fluid rounded shadow"
+              />
+            </Col>
+            <Col md={6}>
+              <h4 className="project-title">Food Delivery Application</h4>
+              <p className="project-description">
+                A full-stack Food Delivery platform with modules for customers, restaurants, delivery partners, and admins. Features include real-time order broadcasting via WebSocket, live delivery tracking with Mapbox, and JWT-secured authentication with role-based access. Optimized backend for performance and improved delivery efficiency by 25%.
+              </p>
+              <div className="project-stack mb-3">
+                <strong>Stack:</strong> React, Vite, Tailwind CSS, Spring Boot, MySQL, WebSocket, JWT, Mapbox
+              </div>
+              <div className="project-buttons d-flex gap-3">
+                <Button
+                  variant="outline-light"
+                  href="https://github.com/saihemanth517/FOOD_DELIVERY_APPLICATION.git"
+                  target="_blank"
+                  className="d-flex align-items-center gap-2"
+                >
+                  <FaGithub /> GitHub
+                </Button>
+              </div>
+            </Col>
+          </Row>
+        </div>
+
       </Container>
     </section>
   );
